@@ -16,46 +16,81 @@
   body {
     background: var(--off-white);
     overflow-x: hidden;
-    height: 100vh;
+    height: 100%;
   }
   
   header{
-    background-color: var(--medium-pink);
+    background-color: white;
     display: block;
     width: 100vw;
     text-align: center;
-    height: 15vh;
+    height: 10vh;
   }
+
+  .fita {
+      background: white;
+      height: 100vh;
+      width: 1rem;
+      position: relative;
+  }
+
+  .produtos {
+    font-family: Poppins;
+    font-size: 0.8rem;
+    padding: 0rem 1rem 0;
+    color: #596773b5;
+  }
+
   h4{
     font-family: Poppins;
-      font-size: 1rem;
+      font-size: 0.8rem;
       padding: 1.5rem 1rem 0;
       color: #596773b5;
+      margin-top: 2rem;
+  }
+
+  li  {
+      height: 2rem;
   }
   
-  .cadastro {
-    margin-top: 2rem;
-  }
-  
-  .ah{
+  .ah {
     font-family: Poppins;
-    text-align: left;
-    padding: 1.2rem 1rem 0 2rem;
-    font-size: 1rem;
-    display: block;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.7rem;
+    display: flex;
     list-style: none;
+    margin-right: auto;
+    margin-left: auto;
     text-decoration: none;
     color: var(--blue);
+    align-items: center;
+    width: 13rem;
+    margin: 1rem;
+  }
+
+  .s {
+    font-family: Poppins;
+    padding: 1rem 1rem 1rem 0.8rem;
+    font-size: 0.8rem;
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: var(--blue);
+    align-items: center;
   }
   
   .ah:hover{
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     background-color: #dee2e67e;
     transition: 0.5s;
+
   }
   
   ul {
     list-style: none;
+    height: 100vh;
   }
   
   label img{
@@ -65,16 +100,22 @@
   
     padding-top: 0.8rem;
     margin-left: 1.5rem;
-    width: 2.5rem;
-  
-    color: var(--mint-green);
+    width: 1.5rem;
   
     z-index: 1;
     cursor: pointer;
   }
   
-  #icon {
-    display: flex;
+.ah img#icon {
+    width: 1rem;
+    color: var(--blue);
+    margin-right: 0.5rem;
+  }
+
+  .s img#icon {
+    width: 1rem;
+    color: var(--blue);
+    margin-right: 0.5rem;
   }
   
   .logo{
@@ -91,10 +132,16 @@
   #nav{
     background-color: white;
     border-radius: 1rem;
-    position: absolute;
-    margin-left: 3rem;
     width: 15rem;
-    height: 160vh;
+    position: absolute;
+    margin: 3rem 0 0 2.5rem;
+    height: 100vh;
     text-align: left;
     transition: 0.5s;
+  }
+
+  footer {
+      color: white;
+      width: 100vw;
+      height: 10vh;
   }
