@@ -1,147 +1,204 @@
 /* RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-:root {
-
-    --blue: #20A2B9;
-    --off-white:  #F6F8FB; 
-    --logo-color: #596773;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-  body {
-    background: var(--off-white);
-    overflow-x: hidden;
-    height: 100%;
-  }
-  
-  header{
-    background-color: white;
-    display: block;
-    width: 100vw;
-    text-align: center;
-    height: 10vh;
-  }
+:root {
+  --blue: #20a2b9;
+  --off-white: #f6f8fb;
+  --logo-color: #596773;
+}
 
-  .fita {
-      background: white;
-      height: 100vh;
-      width: 1rem;
-      position: relative;
-  }
+body {
+  background: var(--off-white);
+  overflow-x: hidden;
+  height: 100%;
+}
 
-  .produtos {
-    font-family: Poppins;
-    font-size: 0.8rem;
-    padding: 0rem 1rem 0;
-    color: #596773b5;
-  }
+header {
+  background-color: white;
+  display: block;
+  width: 100vw;
+  text-align: center;
+  height: 10vh;
+}
 
-  h4{
-    font-family: Poppins;
-      font-size: 0.8rem;
-      padding: 1.5rem 1rem 0;
-      color: #596773b5;
-      margin-top: 2rem;
-  }
+.fitad {
+  background: white;
+  height: 100vh;
+  width: 1rem;
+  position: relative;
+}
 
-  li  {
-      height: 2rem;
-  }
-  
-  .ah {
-    font-family: Poppins;
-    padding: 1rem 1rem 1rem 1rem;
-    font-size: 0.7rem;
-    display: flex;
-    list-style: none;
-    margin-right: auto;
-    margin-left: auto;
-    text-decoration: none;
-    color: var(--blue);
-    align-items: center;
-    width: 13rem;
-    margin: 1rem;
-  }
+.fitae {
+  background: white;
+  height: 100vh;
+  width: 1rem;
+  margin-left: auto;
+  position: relative;
+}
 
-  .s {
-    font-family: Poppins;
-    padding: 1rem 1rem 1rem 0.8rem;
-    font-size: 0.8rem;
-    display: flex;
-    list-style: none;
-    margin-right: auto;
-    margin-left: auto;
-    text-decoration: none;
-    color: var(--blue);
-    align-items: center;
-  }
-  
-  .ah:hover{
-    border-radius: 0.7rem;
-    background-color: #dee2e67e;
-    transition: 0.5s;
+.produtos {
+  font-family: Poppins;
+  font-size: 0.8rem;
+  padding: 0rem 1rem 0;
+  color: #596773b5;
+}
 
-  }
-  
-  ul {
-    list-style: none;
-    height: 100vh;
-  }
-  
-  label img{
-    position: absolute;
-    display: block;
-    align-items: center;
-  
-    padding-top: 0.8rem;
-    margin-left: 1.5rem;
-    width: 1.5rem;
-  
-    z-index: 1;
-    cursor: pointer;
-  }
-  
+h4 {
+  font-family: Poppins;
+  font-size: 0.8rem;
+  padding: 1.5rem 1rem 0;
+  color: #596773b5;
+  margin-top: 2rem;
+}
+
+li {
+  height: 2rem;
+}
+
+.ah {
+  font-family: Poppins;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 0.7rem;
+  display: flex;
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  color: var(--blue);
+  align-items: center;
+  width: 13rem;
+  margin: 1rem;
+}
+
+.s {
+  font-family: Poppins;
+  padding: 1rem 1rem 1rem 0.8rem;
+  font-size: 0.8rem;
+  display: flex;
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  color: var(--blue);
+  align-items: center;
+}
+
+.ah:hover {
+  border-radius: 0.7rem;
+  background-color: #dee2e67e;
+  transition: 0.5s;
+}
+
+ul {
+  list-style: none;
+  height: 100vh;
+}
+
+#menu {
+  margin: 1rem 2rem 1rem 5rem;
+  cursor: pointer;
+}
+
 .ah img#icon {
-    width: 1rem;
-    color: var(--blue);
-    margin-right: 0.5rem;
-  }
+  width: 1rem;
+  color: var(--blue);
+  margin-right: 0.5rem;
+}
 
-  .s img#icon {
-    width: 1rem;
-    color: var(--blue);
-    margin-right: 0.5rem;
-  }
-  
-  .logo{
-    font-family: Poppins;
-    text-align: right;
-    font-style: normal;
-    font-size: 2rem;
-    font-weight: normal;
-    margin-right: 2rem;
-    padding-top: 0.5rem;
-    color: var(--blue);
-  }
-  
-  #nav{
-    background-color: white;
-    border-radius: 1rem;
-    width: 15rem;
-    position: absolute;
-    margin: 3rem 0 0 2.5rem;
-    height: 100vh;
-    text-align: left;
-    transition: 0.5s;
-  }
+.s img#icon {
+  width: 1rem;
+  color: var(--blue);
+  margin-right: 0.5rem;
+}
 
-  footer {
-      color: white;
-      width: 100vw;
-      height: 10vh;
-  }
+.logo {
+  font-family: Fredoka One;
+  display: flex;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--logo-color);
+}
+
+.seta {
+  width: 2rem;
+}
+
+p {
+  color: var(--blue);
+  font-size: 1.5rem;
+  display: flex;
+  margin-top: -0.3rem;
+}
+
+.z {
+  font-family: Fredoka One;
+  color: var(--blue);
+}
+
+.ponto {
+  font-family: Fredoka One;
+  color: red;
+  margin-left: -0.5rem;
+}
+
+#nav {
+  background-color: white;
+  border-radius: 1rem;
+  width: 15rem;
+  left: -21rem;
+  position: absolute;
+  margin: 3rem 0 0 2.5rem;
+  height: 100%;
+  text-align: left;
+  transition: 0.5s;
+}
+
+input {
+  border-color: var(--blue);
+  border-radius: 0.3rem;
+  width: 20rem;
+  height: 2rem;
+  padding: 0rem 0 0 2rem;
+  background-image: url(assets/search.svg);
+  background-repeat: no-repeat;
+}
+
+.h {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.cars {
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.h .cs {
+  padding: 0rem 0.5rem 0 28rem;
+}
+
+.pessoa {
+  padding: 0rem 0rem 0 0.5rem;
+  width: 2.5rem;
+}
+
+.usuario {
+  font-family: Poppins;
+  color: var(--logo-color); 
+  font-size: 0.7rem;
+}
+
+footer {
+  background-color: white;
+  width: 100vw;
+  height: 1vh;
+  bottom: 0;
+}
+
